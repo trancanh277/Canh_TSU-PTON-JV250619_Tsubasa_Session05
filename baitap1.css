@@ -1,0 +1,12 @@
+button{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    width: 200px;
+    height:100px;
+    text-align: center;
+    border-top: 5px solid red;
+    border-bottom: 10px double green;
+    border-left: 10px groove purple;
+    border-right: 10px dotted blue;
+}
