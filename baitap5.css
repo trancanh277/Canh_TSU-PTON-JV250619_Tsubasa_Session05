@@ -1,0 +1,38 @@
+.transform{
+    width: 200px;
+    height: 150px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size:40px;
+    margin: 10px auto;
+    padding: 50px;
+    border-radius: 4px;
+}
+.transform:hover:nth-of-type(1){
+    background-color: rgb(88, 87, 87);
+}
+.transform:hover:nth-of-type(2){
+    background-color: aqua;
+}
+.transform:hover:nth-of-type(3){
+    width: 250px;
+    height: 200px;
+    transition: 1s;
+}
+.transform:hover:nth-of-type(4){
+    width: 150px;
+    height: 100px;
+    transition: 1s;
+}
+.transform:hover:nth-of-type(5){
+    transform:rotate(-30deg);
+}
+.transform:hover:nth-of-type(6){
+    border-radius: 60%;
+}
+.transform:hover:nth-of-type(7){
+    border: 20px solid rgb(93, 160, 236);
+    
+}
